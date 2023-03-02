@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    /* min-width: 100%; */
+    background-color: hsl(258, 63%, 53%);
+    padding-right: 20;
+}
+
+
+.hardcode{
+    font-size: 8;
+}
+
+.nav-bar{
+    margin-top: 0cm;
+}
+.ul-navBar{
+    list-style: none;
+    min-width: 40%;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav-items{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 15px;
+    position: relative;
+    opacity: 0.9;
+}
